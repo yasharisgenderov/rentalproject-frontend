@@ -10,7 +10,7 @@ export class CarService {
   apiUrl = 'https://localhost:44307/api/cars/getallcars'
   constructor(private httpClient:HttpClient) { }
 
-  getProducts():Observable<CarResponseModel> {
+  getCars():Observable<CarResponseModel> {
     return  this.httpClient.get<CarResponseModel>(this.apiUrl)
   }
 }
