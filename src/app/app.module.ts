@@ -4,7 +4,6 @@ import {HttpClientModule} from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CategoryComponent } from './components/category/category.component';
 import { NaviComponent } from './components/navi/navi.component';
 import { from } from 'rxjs';
 import { CarComponent } from './components/car/car.component';
@@ -14,7 +13,6 @@ import { ColorComponent } from './components/color/color.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CategoryComponent,
     NaviComponent,
     CarComponent,
     BrandComponent,
