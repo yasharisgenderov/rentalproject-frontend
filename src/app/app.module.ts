@@ -9,6 +9,7 @@ import { from } from 'rxjs';
 import { CarComponent } from './components/car/car.component';
 import { BrandComponent } from './components/brand/brand.component';
 import { ColorComponent } from './components/color/color.component';
+import { CarimageComponent } from './components/carimage/carimage.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ColorComponent } from './components/color/color.component';
     NaviComponent,
     CarComponent,
     BrandComponent,
-    ColorComponent
+    ColorComponent,
+    CarimageComponent
   ],
   imports: [
     BrowserModule,
